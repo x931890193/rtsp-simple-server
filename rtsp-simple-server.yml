@@ -129,6 +129,7 @@ paths:
     # * rtsp://existing-url -> the stream is pulled from another RTSP server
     # * rtsps://existing-url -> the stream is pulled from another RTSP server, with RTSPS
     # * rtmp://existing-url -> the stream is pulled from a RTMP server
+    # * http://existing-url/stream.m3u8 -> the stream is pulled from another HLS server
     # * redirect -> the stream is provided by another path or server
     source: publisher
 
